@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @record.model %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @record.number %>
+</p>
+
+<p>
+  <strong>Result:</strong>
+  <%= @record.result %>
+</p>
+
+<%= link_to 'Edit', edit_record_path(@record) %> |
+<%= link_to 'Back', records_path %>
